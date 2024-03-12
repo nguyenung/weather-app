@@ -1,0 +1,60 @@
+#today-item {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#today-item img {
+  width: 100px;
+}
+
+#today-detail {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+#today-detail .today-label {
+  font-size: 1.6rem;
+}
+
+#today-detail .city-name {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#today-detail .today-weather-detail {
+  font-size: 1.4rem;
+}
+
+.next-weather-list {
+  margin-top: 35px;
+}
+
+.next-weather-list li {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-right: 55px;
+}
+
+.next-weather-list li .next-weather-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 3px 0 8px silver;
+  border-radius: 30px;
+  width: 175px;
+}
+
+.next-days {
+  font-weight: bold;
+  font-size: 1.1rem;
+}

@@ -1,8 +1,18 @@
 #root {
   max-width: 1280px;
+  min-width: 100vw;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.page-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#forecast-app.has-results h1.page-title {
+  font-size: 2.3em;
 }
 
 .logo {
@@ -16,6 +26,10 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+#forecast-app.has-results .logo {
+  height: 4em;
 }
 
 @keyframes logo-spin {
@@ -34,7 +48,11 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .read-the-docs {
